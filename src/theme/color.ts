@@ -1,0 +1,27 @@
+module.exports = {
+  primary: "#F19254",
+  secondary: "#607196",
+  danger: "#F44336",
+  "container-dark": "#28292B",
+  "on-container-dark": "#F6F8FA",
+  surface: "#F6F6F6",
+  "on-surface": "#98989A",
+  "surface-container": "#EAEAEA",
+  "on-surface-container": "#7A7A7A",
+  black: "#2A2C2D",
+
+  // light: '#F5F5F5',
+  // dark: '#212121',
+  // text: '#333',
+  // textSecondary: '#666',
+  // textLight: '#999',
+  // border: '#E0E0E0',
+  // background: '#F0F0F0',
+  // white: '#FFF',
+  // black: '#000',
+  // transparent: 'transparent',
+  // success: '#4CAF50',
+  // warning: '#FF9800',
+  // info: '#2196F3',
+  // disabled: '#'
+};
