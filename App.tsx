@@ -6,7 +6,6 @@
  */
 
 import React from "react";
-import type { PropsWithChildren } from "react";
 import {
   ScrollView,
   StatusBar,
@@ -14,8 +13,11 @@ import {
   Text,
   useColorScheme,
   View,
+  SafeAreaView,
 } from "react-native";
-import "./global";
+import { SafeAreaProvider } from "react-native-safe-area-context";
+
+import "./global.css";
 
 import {
   Colors,
@@ -24,19 +26,11 @@ import {
   LearnMoreLinks,
   ReloadInstructions,
 } from "react-native/Libraries/NewAppScreen";
-
-type SectionProps = PropsWithChildren<{
-  title: string;
-}>;
+import RootNavigator from "./src/navigators/RootNavigator";
+import { SafeAreaProviderCompat } from "@react-navigation/elements";
 
 const App = () => {
-  return (
-    <View className="w-screen h-screen bg-surface flex items-center justify-center">
-      <Text className="text-container-dark font-bold text-[20px]">
-        Hello World
-      </Text>
-    </View>
-  );
+  return <RootNavigator />;
 };
 
 export default App;
