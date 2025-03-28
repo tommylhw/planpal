@@ -14,8 +14,8 @@ const SplashScreen = () => {
   return (
     <SafeAreaView className="bg-surface">
       <StatusBar className="bg-surface" />
-      <View className="w-full h-full flex justify-center items-center bg-surface">
-        <View className="flex items-center justify-center gap-[16px]">
+      <View className="w-full h-full flex justify-start items-center bg-surface">
+        <View className="flex items-center justify-center gap-[16px] mt-[170px]">
           <Image
             source={require("../../assets/icon/app_icon.png")}
             alt="App Icon"
@@ -29,7 +29,9 @@ const SplashScreen = () => {
               className="w-[200px]"
               resizeMode="contain"
             />
-            <Text className="text-[14px]">Your self management partner</Text>
+            <Text className="text-[14px]" style={{
+              fontFamily: "Poppins Regular",
+            }}>Your self management partner</Text>
           </View>
         </View>
       </View>

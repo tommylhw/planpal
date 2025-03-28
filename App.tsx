@@ -6,6 +6,7 @@
  */
 
 import React from "react";
+import { GluestackUIProvider } from "./gluestack/ui/gluestack-ui-provider";
 import {
   ScrollView,
   StatusBar,
@@ -28,9 +29,15 @@ import {
 } from "react-native/Libraries/NewAppScreen";
 import RootNavigator from "./src/navigators/RootNavigator";
 import { SafeAreaProviderCompat } from "@react-navigation/elements";
+import { Provider } from "react-redux";
+import store from "./src/stores/store";
 
 const App = () => {
-  return <RootNavigator />;
+  return (
+    <Provider store={store}>
+      <RootNavigator />
+    </Provider>
+  );
 };
 
 export default App;

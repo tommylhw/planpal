@@ -7,23 +7,91 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06D6DCE75A3C480B91C7610A /* RedditSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 87A45FEBC91F4240989D6102 /* RedditSans-Regular.ttf */; };
+		0743DE76D90F48F4A164F560 /* Poppins-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E0D1B74FDD864CFFBC33DD75 /* Poppins-ExtraBoldItalic.ttf */; };
 		0C80B921A6F3F58F76C31292 /* libPods-planpal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-planpal.a */; };
+		0F95BE992E75471DB1E68941 /* RedditSans-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 47BA1D96E527424192942D30 /* RedditSans-ExtraLightItalic.ttf */; };
+		13719084DF6949F79053FF3E /* Poppins-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D5401AB42AAB44948F7F721C /* Poppins-BoldItalic.ttf */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		1F15E46BE19D4DFC904AAF1E /* Poppins-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D17B7221132448D7A5B773B7 /* Poppins-ThinItalic.ttf */; };
+		2D039646796D4688A05BED54 /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 660B7B0006ED4653BD4057F0 /* Poppins-Thin.ttf */; };
+		392B570A04404A398AC65F40 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5A1953B0244A4E0A92AE6066 /* Poppins-Light.ttf */; };
+		4128FE875D0C4C8980F7A522 /* Poppins-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E4B6F1F261CD4B0DB76AE577 /* Poppins-BlackItalic.ttf */; };
+		46C4326C00BB45228E1F741C /* RedditSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 25D18A31FA6748058913C22C /* RedditSans-Italic.ttf */; };
+		5760196116B14CC4AA5AB541 /* RedditSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 876B80FB1F434F8BBD16C769 /* RedditSans-BoldItalic.ttf */; };
+		5A09E8223C324DE888384B57 /* RedditSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 981EF09FE44E4D328B0F9CB3 /* RedditSans-Bold.ttf */; };
 		611E760A00759E60F44BAD26 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
+		67D17530743E4E889F609ABD /* Poppins-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9BF70D52C874D2FBEAD8F53 /* Poppins-MediumItalic.ttf */; };
+		6B2F9E5BB22340EABF56490B /* RedditSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93C34902C3704946B7E26F5A /* RedditSans-ExtraBoldItalic.ttf */; };
+		6C48FFB852B247ADB83D235B /* RedditSans-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A9C3755CAE7042239E3E5B07 /* RedditSans-SemiBoldItalic.ttf */; };
+		708CFE60FADF4D3EBF42185A /* RedditSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AF89196E56C74F85BD3A0A67 /* RedditSans-Light.ttf */; };
 		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
+		80E48168B921486CA37B7E2D /* RedditSans-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ACB94FCBFEF842169A74B180 /* RedditSans-BlackItalic.ttf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		875CB3320C7143B09C5E1105 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5C10FA6C1CF4E9BB5234C1E /* Poppins-Bold.ttf */; };
+		8A71A9238D8B40B19DE5BEE3 /* Poppins-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 999379EC83EE4B87A24DD51E /* Poppins-LightItalic.ttf */; };
+		9A035CF644644E988262FB08 /* RedditSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD531A41A7974E1D8C53FA1B /* RedditSans-Medium.ttf */; };
+		9D93ED8B0B7E41278147FA61 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF0A6E54CEDA45C8AB8AFCE8 /* Poppins-Medium.ttf */; };
+		9F614AAB9CEC410A99F85B1B /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 37A1F8A24D5C471B9E735496 /* Poppins-SemiBold.ttf */; };
+		A79079A8DC7544BDB7DBE2C3 /* RedditSans-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6996EDB2FDC042D5B209737B /* RedditSans-MediumItalic.ttf */; };
+		ACC684A33CF24066AA211DF2 /* Poppins-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 203F6F421C794CE083979EF4 /* Poppins-ExtraBold.ttf */; };
+		BCC3EEC9574440EA9701852F /* Poppins-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 556A967779D34B719DEBDDB6 /* Poppins-ExtraLightItalic.ttf */; };
+		C2B6DB3A7A6849ECB53FBE17 /* Poppins-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 138D1C3944204483B1FF57A0 /* Poppins-SemiBoldItalic.ttf */; };
+		C4E8F2726F4444CB9E94EEC7 /* RedditSans-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 896BF69559FC4178A7B8391B /* RedditSans-ExtraLight.ttf */; };
+		C6EBBABABFB1419EB6CEBBA1 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 97835255FFE74AD99F4DA7B8 /* Poppins-Regular.ttf */; };
+		C9278EA7895C4113879941E9 /* RedditSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D1C4EFD0ECE04CC78C17BBE5 /* RedditSans-SemiBold.ttf */; };
+		CC886470FE484EFBB6FBA29C /* RedditSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B0ECC50994A8415288603B32 /* RedditSans-ExtraBold.ttf */; };
+		CDAF9EB135A343FFBD214E8C /* Poppins-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7A96CC69C408433EB260C07A /* Poppins-Italic.ttf */; };
+		D4FFE3B7F4604C8298E9D3C4 /* RedditSans-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E82697F1F0864B8498CBE8CC /* RedditSans-Black.ttf */; };
+		F5F5C7F9F5764A8693DC850E /* Poppins-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7A98E7D7928348508674AD3B /* Poppins-ExtraLight.ttf */; };
+		F65C411517174BCFA795E987 /* RedditSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 35672115DA5D483D99B2CD50 /* RedditSans-LightItalic.ttf */; };
+		FC1213CD02864438AD9C91B8 /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1CCA83E548A543908BFA9817 /* Poppins-Black.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		138D1C3944204483B1FF57A0 /* Poppins-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-SemiBoldItalic.ttf"; path = "../assets/fonts/Poppins-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* planpal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = planpal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = planpal/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = planpal/Info.plist; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = planpal/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		1CCA83E548A543908BFA9817 /* Poppins-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Black.ttf"; path = "../assets/fonts/Poppins-Black.ttf"; sourceTree = "<group>"; };
+		203F6F421C794CE083979EF4 /* Poppins-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-ExtraBold.ttf"; path = "../assets/fonts/Poppins-ExtraBold.ttf"; sourceTree = "<group>"; };
+		25D18A31FA6748058913C22C /* RedditSans-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "RedditSans-Italic.ttf"; path = "../assets/fonts/RedditSans-Italic.ttf"; sourceTree = "<group>"; };
+		35672115DA5D483D99B2CD50 /* RedditSans-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "RedditSans-LightItalic.ttf"; path = "../assets/fonts/RedditSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		37A1F8A24D5C471B9E735496 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-SemiBold.ttf"; path = "../assets/fonts/Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-planpal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-planpal.debug.xcconfig"; path = "Target Support Files/Pods-planpal/Pods-planpal.debug.xcconfig"; sourceTree = "<group>"; };
+		47BA1D96E527424192942D30 /* RedditSans-ExtraLightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "RedditSans-ExtraLightItalic.ttf"; path = "../assets/fonts/RedditSans-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		556A967779D34B719DEBDDB6 /* Poppins-ExtraLightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-ExtraLightItalic.ttf"; path = "../assets/fonts/Poppins-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-planpal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-planpal.release.xcconfig"; path = "Target Support Files/Pods-planpal/Pods-planpal.release.xcconfig"; sourceTree = "<group>"; };
+		5A1953B0244A4E0A92AE6066 /* Poppins-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Light.ttf"; path = "../assets/fonts/Poppins-Light.ttf"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-planpal.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-planpal.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		660B7B0006ED4653BD4057F0 /* Poppins-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Thin.ttf"; path = "../assets/fonts/Poppins-Thin.ttf"; sourceTree = "<group>"; };
+		6996EDB2FDC042D5B209737B /* RedditSans-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "RedditSans-MediumItalic.ttf"; path = "../assets/fonts/RedditSans-MediumItalic.ttf"; sourceTree = "<group>"; };
 		761780EC2CA45674006654EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = planpal/AppDelegate.swift; sourceTree = "<group>"; };
+		7A96CC69C408433EB260C07A /* Poppins-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Italic.ttf"; path = "../assets/fonts/Poppins-Italic.ttf"; sourceTree = "<group>"; };
+		7A98E7D7928348508674AD3B /* Poppins-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-ExtraLight.ttf"; path = "../assets/fonts/Poppins-ExtraLight.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = planpal/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		876B80FB1F434F8BBD16C769 /* RedditSans-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "RedditSans-BoldItalic.ttf"; path = "../assets/fonts/RedditSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		87A45FEBC91F4240989D6102 /* RedditSans-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "RedditSans-Regular.ttf"; path = "../assets/fonts/RedditSans-Regular.ttf"; sourceTree = "<group>"; };
+		896BF69559FC4178A7B8391B /* RedditSans-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "RedditSans-ExtraLight.ttf"; path = "../assets/fonts/RedditSans-ExtraLight.ttf"; sourceTree = "<group>"; };
+		93C34902C3704946B7E26F5A /* RedditSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "RedditSans-ExtraBoldItalic.ttf"; path = "../assets/fonts/RedditSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		97835255FFE74AD99F4DA7B8 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Regular.ttf"; path = "../assets/fonts/Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		981EF09FE44E4D328B0F9CB3 /* RedditSans-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "RedditSans-Bold.ttf"; path = "../assets/fonts/RedditSans-Bold.ttf"; sourceTree = "<group>"; };
+		999379EC83EE4B87A24DD51E /* Poppins-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-LightItalic.ttf"; path = "../assets/fonts/Poppins-LightItalic.ttf"; sourceTree = "<group>"; };
+		A5C10FA6C1CF4E9BB5234C1E /* Poppins-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Bold.ttf"; path = "../assets/fonts/Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		A9C3755CAE7042239E3E5B07 /* RedditSans-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "RedditSans-SemiBoldItalic.ttf"; path = "../assets/fonts/RedditSans-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		ACB94FCBFEF842169A74B180 /* RedditSans-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "RedditSans-BlackItalic.ttf"; path = "../assets/fonts/RedditSans-BlackItalic.ttf"; sourceTree = "<group>"; };
+		AF89196E56C74F85BD3A0A67 /* RedditSans-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "RedditSans-Light.ttf"; path = "../assets/fonts/RedditSans-Light.ttf"; sourceTree = "<group>"; };
+		B0ECC50994A8415288603B32 /* RedditSans-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "RedditSans-ExtraBold.ttf"; path = "../assets/fonts/RedditSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		BD531A41A7974E1D8C53FA1B /* RedditSans-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "RedditSans-Medium.ttf"; path = "../assets/fonts/RedditSans-Medium.ttf"; sourceTree = "<group>"; };
+		D17B7221132448D7A5B773B7 /* Poppins-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-ThinItalic.ttf"; path = "../assets/fonts/Poppins-ThinItalic.ttf"; sourceTree = "<group>"; };
+		D1C4EFD0ECE04CC78C17BBE5 /* RedditSans-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "RedditSans-SemiBold.ttf"; path = "../assets/fonts/RedditSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		D5401AB42AAB44948F7F721C /* Poppins-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-BoldItalic.ttf"; path = "../assets/fonts/Poppins-BoldItalic.ttf"; sourceTree = "<group>"; };
+		DF0A6E54CEDA45C8AB8AFCE8 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Medium.ttf"; path = "../assets/fonts/Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		E0D1B74FDD864CFFBC33DD75 /* Poppins-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-ExtraBoldItalic.ttf"; path = "../assets/fonts/Poppins-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		E4B6F1F261CD4B0DB76AE577 /* Poppins-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-BlackItalic.ttf"; path = "../assets/fonts/Poppins-BlackItalic.ttf"; sourceTree = "<group>"; };
+		E82697F1F0864B8498CBE8CC /* RedditSans-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "RedditSans-Black.ttf"; path = "../assets/fonts/RedditSans-Black.ttf"; sourceTree = "<group>"; };
+		E9BF70D52C874D2FBEAD8F53 /* Poppins-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-MediumItalic.ttf"; path = "../assets/fonts/Poppins-MediumItalic.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -75,6 +143,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				8F177A761C044685B888F27D /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -87,6 +156,47 @@
 				13B07F961A680F5B00A75B9A /* planpal.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		8F177A761C044685B888F27D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1CCA83E548A543908BFA9817 /* Poppins-Black.ttf */,
+				E4B6F1F261CD4B0DB76AE577 /* Poppins-BlackItalic.ttf */,
+				A5C10FA6C1CF4E9BB5234C1E /* Poppins-Bold.ttf */,
+				D5401AB42AAB44948F7F721C /* Poppins-BoldItalic.ttf */,
+				203F6F421C794CE083979EF4 /* Poppins-ExtraBold.ttf */,
+				E0D1B74FDD864CFFBC33DD75 /* Poppins-ExtraBoldItalic.ttf */,
+				7A98E7D7928348508674AD3B /* Poppins-ExtraLight.ttf */,
+				556A967779D34B719DEBDDB6 /* Poppins-ExtraLightItalic.ttf */,
+				7A96CC69C408433EB260C07A /* Poppins-Italic.ttf */,
+				5A1953B0244A4E0A92AE6066 /* Poppins-Light.ttf */,
+				999379EC83EE4B87A24DD51E /* Poppins-LightItalic.ttf */,
+				DF0A6E54CEDA45C8AB8AFCE8 /* Poppins-Medium.ttf */,
+				E9BF70D52C874D2FBEAD8F53 /* Poppins-MediumItalic.ttf */,
+				97835255FFE74AD99F4DA7B8 /* Poppins-Regular.ttf */,
+				37A1F8A24D5C471B9E735496 /* Poppins-SemiBold.ttf */,
+				138D1C3944204483B1FF57A0 /* Poppins-SemiBoldItalic.ttf */,
+				660B7B0006ED4653BD4057F0 /* Poppins-Thin.ttf */,
+				D17B7221132448D7A5B773B7 /* Poppins-ThinItalic.ttf */,
+				E82697F1F0864B8498CBE8CC /* RedditSans-Black.ttf */,
+				ACB94FCBFEF842169A74B180 /* RedditSans-BlackItalic.ttf */,
+				981EF09FE44E4D328B0F9CB3 /* RedditSans-Bold.ttf */,
+				876B80FB1F434F8BBD16C769 /* RedditSans-BoldItalic.ttf */,
+				B0ECC50994A8415288603B32 /* RedditSans-ExtraBold.ttf */,
+				93C34902C3704946B7E26F5A /* RedditSans-ExtraBoldItalic.ttf */,
+				896BF69559FC4178A7B8391B /* RedditSans-ExtraLight.ttf */,
+				47BA1D96E527424192942D30 /* RedditSans-ExtraLightItalic.ttf */,
+				25D18A31FA6748058913C22C /* RedditSans-Italic.ttf */,
+				AF89196E56C74F85BD3A0A67 /* RedditSans-Light.ttf */,
+				35672115DA5D483D99B2CD50 /* RedditSans-LightItalic.ttf */,
+				BD531A41A7974E1D8C53FA1B /* RedditSans-Medium.ttf */,
+				6996EDB2FDC042D5B209737B /* RedditSans-MediumItalic.ttf */,
+				87A45FEBC91F4240989D6102 /* RedditSans-Regular.ttf */,
+				D1C4EFD0ECE04CC78C17BBE5 /* RedditSans-SemiBold.ttf */,
+				A9C3755CAE7042239E3E5B07 /* RedditSans-SemiBoldItalic.ttf */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
@@ -161,6 +271,40 @@
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				611E760A00759E60F44BAD26 /* PrivacyInfo.xcprivacy in Resources */,
+				FC1213CD02864438AD9C91B8 /* Poppins-Black.ttf in Resources */,
+				4128FE875D0C4C8980F7A522 /* Poppins-BlackItalic.ttf in Resources */,
+				875CB3320C7143B09C5E1105 /* Poppins-Bold.ttf in Resources */,
+				13719084DF6949F79053FF3E /* Poppins-BoldItalic.ttf in Resources */,
+				ACC684A33CF24066AA211DF2 /* Poppins-ExtraBold.ttf in Resources */,
+				0743DE76D90F48F4A164F560 /* Poppins-ExtraBoldItalic.ttf in Resources */,
+				F5F5C7F9F5764A8693DC850E /* Poppins-ExtraLight.ttf in Resources */,
+				BCC3EEC9574440EA9701852F /* Poppins-ExtraLightItalic.ttf in Resources */,
+				CDAF9EB135A343FFBD214E8C /* Poppins-Italic.ttf in Resources */,
+				392B570A04404A398AC65F40 /* Poppins-Light.ttf in Resources */,
+				8A71A9238D8B40B19DE5BEE3 /* Poppins-LightItalic.ttf in Resources */,
+				9D93ED8B0B7E41278147FA61 /* Poppins-Medium.ttf in Resources */,
+				67D17530743E4E889F609ABD /* Poppins-MediumItalic.ttf in Resources */,
+				C6EBBABABFB1419EB6CEBBA1 /* Poppins-Regular.ttf in Resources */,
+				9F614AAB9CEC410A99F85B1B /* Poppins-SemiBold.ttf in Resources */,
+				C2B6DB3A7A6849ECB53FBE17 /* Poppins-SemiBoldItalic.ttf in Resources */,
+				2D039646796D4688A05BED54 /* Poppins-Thin.ttf in Resources */,
+				1F15E46BE19D4DFC904AAF1E /* Poppins-ThinItalic.ttf in Resources */,
+				D4FFE3B7F4604C8298E9D3C4 /* RedditSans-Black.ttf in Resources */,
+				80E48168B921486CA37B7E2D /* RedditSans-BlackItalic.ttf in Resources */,
+				5A09E8223C324DE888384B57 /* RedditSans-Bold.ttf in Resources */,
+				5760196116B14CC4AA5AB541 /* RedditSans-BoldItalic.ttf in Resources */,
+				CC886470FE484EFBB6FBA29C /* RedditSans-ExtraBold.ttf in Resources */,
+				6B2F9E5BB22340EABF56490B /* RedditSans-ExtraBoldItalic.ttf in Resources */,
+				C4E8F2726F4444CB9E94EEC7 /* RedditSans-ExtraLight.ttf in Resources */,
+				0F95BE992E75471DB1E68941 /* RedditSans-ExtraLightItalic.ttf in Resources */,
+				46C4326C00BB45228E1F741C /* RedditSans-Italic.ttf in Resources */,
+				708CFE60FADF4D3EBF42185A /* RedditSans-Light.ttf in Resources */,
+				F65C411517174BCFA795E987 /* RedditSans-LightItalic.ttf in Resources */,
+				9A035CF644644E988262FB08 /* RedditSans-Medium.ttf in Resources */,
+				A79079A8DC7544BDB7DBE2C3 /* RedditSans-MediumItalic.ttf in Resources */,
+				06D6DCE75A3C480B91C7610A /* RedditSans-Regular.ttf in Resources */,
+				C9278EA7895C4113879941E9 /* RedditSans-SemiBold.ttf in Resources */,
+				6C48FFB852B247ADB83D235B /* RedditSans-SemiBoldItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
