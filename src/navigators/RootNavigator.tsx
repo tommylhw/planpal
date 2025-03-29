@@ -47,7 +47,7 @@ import {
 import WelcomeScreen from "../screens/auth/WelcomeScreen";
 import SignInScreen from "../screens/auth/SignInScreen";
 import SignUpScreen from "../screens/auth/SignUpScreen";
-import AccountConfirmationScreen from "../screens/auth/AccountConfirmationScreen";
+import AccountVerificationScreen from "../screens/auth/AccountVerificationScreen";
 
 const SplahNavigator = () => {
   return (
@@ -80,18 +80,27 @@ const AuthNavigator = () => {
       <Stack.Screen
         name="AuthNavigator_WelcomeScreen"
         component={WelcomeScreen}
+        options={{
+          animation: "fade",
+        }}
       />
       <Stack.Screen
         name="AuthNavigator_SignInScreen"
         component={SignInScreen}
+        options={{
+          animation: "fade",
+        }}
       />
       <Stack.Screen
         name="AuthNavigator_SignUpScreen"
         component={SignUpScreen}
+        options={{
+          animation: "fade",
+        }}
       />
       <Stack.Screen
-        name="AuthNavigator_AccountConfirmationScreen"
-        component={AccountConfirmationScreen}
+        name="AuthNavigator_AccountVerificationScreen"
+        component={AccountVerificationScreen}
       />
       <Stack.Screen
         name="AuthNavigator_BottomTabNavigator"

@@ -31,7 +31,10 @@ const WelcomeScreen = ({ navigation }: { navigation: any }) => {
           />
         </View>
         <View className="flex flex-col items-center justify-center gap-[16px] w-full">
-          <TouchableOpacity className="bg-container-dark w-full p-6 flex justify-center items-center rounded-[10px]">
+          <TouchableOpacity
+            className="bg-container-dark w-full p-5 flex justify-center items-center rounded-[10px]"
+            onPress={() => navigation.navigate("AuthNavigator_SignUpScreen")}
+          >
             <Text
               className="text-on-container-dark text-[17px] font-Poppins_Black font-bold"
               onPress={() => navigation.navigate("AuthNavigator_SignUpScreen")}
@@ -40,7 +43,7 @@ const WelcomeScreen = ({ navigation }: { navigation: any }) => {
             </Text>
           </TouchableOpacity>
           <TouchableOpacity
-            className="bg-white w-full p-6 flex justify-center items-center rounded-[10px]"
+            className="bg-white w-full p-5 flex justify-center items-center rounded-[10px]"
             style={{
               boxShadow: "2px 2px 10px 2px rgba(0,0,0,0.02)",
             }}

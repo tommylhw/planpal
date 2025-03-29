@@ -10,12 +10,12 @@ module.exports = {
     "components/**/*.{tsx,jsx,ts,js}",
   ],
   presets: [require('nativewind/preset')],
-  safelist: [
-    {
-      pattern:
-        /(bg|border|text|stroke|fill)-(primary|secondary|tertiary|error|success|warning|info|typography|outline|background|indicator)-(0|50|100|200|300|400|500|600|700|800|900|950|white|gray|black|error|warning|muted|success|info|light|dark|primary)/,
-    },
-  ],
+  // safelist: [
+  //   {
+  //     pattern:
+  //       /(bg|border|text|stroke|fill)-(primary|secondary|tertiary|error|success|warning|info|typography|outline|background|indicator)-(0|50|100|200|300|400|500|600|700|800|900|950|white|gray|black|error|warning|muted|success|info|light|dark|primary)/,
+  //   },
+  // ],
   theme: {
     extend: {
       // colors: {
@@ -198,9 +198,12 @@ module.exports = {
         'soft-2': '0px 0px 20px rgba(38, 38, 38, 0.2)',
         'soft-3': '0px 0px 30px rgba(38, 38, 38, 0.1)',
         'soft-4': '0px 0px 40px rgba(38, 38, 38, 0.1)',
-        'white-shadow': '2px 2px 10px 2px rgba(0, 0, 0, 0.02)',
+        'white-shadow': '2px 2px 10px 2px rgba(0, 0, 0, 0.04)',
       },
     },
+  },
+  corePlugins: {
+    backgroundOpacity: true,
   },
   plugins: [gluestackPlugin],
 };
